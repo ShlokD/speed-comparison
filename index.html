@@ -1,0 +1,31 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Page Speed Comparator</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+  <div class="page">
+    <div class="subpage">
+        <input type="url" name="page1url" autocomplete="url" placeholder="Enter site here" value="https://www.pixabay.com"></input>
+        <button data-page="page1" data-urlsrc="page1url" id="page1-load">Go!</button>
+        <p class="hidden" id="pageALoadTime"></p>
+        <iframe id="page1" data-label="pageA" frameborder="0" height="100%" width="100%"></iframe>
+    </div>
+    <div class="subpage">
+        <input type="url" name="page2url" autocomplete="url" placeholder="Enter site here" value="https://www.pixabay.com"></input>
+        <button data-page="page2" data-urlsrc="page2url" id="page2-load">Go!</button>
+        <p class="hidden" id="pageBLoadTime"></p>
+        <iframe id="page2" data-label="pageB" frameborder="0" height="100%" width="100%"></iframe>
+    </div>
+    
+  <script src="main.js"></script>
+</body>
+
+</html>
